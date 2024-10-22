@@ -27,6 +27,10 @@
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
           <string>Label</string>
           <string>A</string>
         </entry>
@@ -34,16 +38,16 @@
           <string>Bits</string>
           <int>4</int>
         </entry>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
       </elementAttributes>
-      <pos x="60" y="20"/>
+      <pos x="60" y="-60"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
       <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
         <entry>
           <string>Label</string>
           <string>B</string>
@@ -52,26 +56,22 @@
           <string>Bits</string>
           <int>4</int>
         </entry>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
       </elementAttributes>
-      <pos x="160" y="20"/>
+      <pos x="160" y="-60"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>C_in</string>
-        </entry>
-        <entry>
           <string>rotation</string>
           <rotation rotation="3"/>
         </entry>
+        <entry>
+          <string>Label</string>
+          <string>C_in</string>
+        </entry>
       </elementAttributes>
-      <pos x="280" y="20"/>
+      <pos x="280" y="-60"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -101,16 +101,16 @@
       <elementName>Splitter</elementName>
       <elementAttributes>
         <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
           <string>Input Splitting</string>
           <string>4</string>
         </entry>
         <entry>
           <string>Output Splitting</string>
           <string>1,1,1,1</string>
-        </entry>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
         </entry>
       </elementAttributes>
       <pos x="60" y="60"/>
@@ -119,16 +119,16 @@
       <elementName>Splitter</elementName>
       <elementAttributes>
         <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
           <string>Input Splitting</string>
           <string>4</string>
         </entry>
         <entry>
           <string>Output Splitting</string>
           <string>1,1,1,1</string>
-        </entry>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
         </entry>
       </elementAttributes>
       <pos x="180" y="60"/>
@@ -302,7 +302,7 @@
       <p2 x="320" y="500"/>
     </wire>
     <wire>
-      <p1 x="160" y="20"/>
+      <p1 x="160" y="-60"/>
       <p2 x="160" y="40"/>
     </wire>
     <wire>
@@ -374,6 +374,10 @@
       <p2 x="120" y="560"/>
     </wire>
     <wire>
+      <p1 x="280" y="-60"/>
+      <p2 x="280" y="20"/>
+    </wire>
+    <wire>
       <p1 x="220" y="220"/>
       <p2 x="220" y="300"/>
     </wire>
@@ -386,7 +390,7 @@
       <p2 x="220" y="580"/>
     </wire>
     <wire>
-      <p1 x="60" y="20"/>
+      <p1 x="60" y="-60"/>
       <p2 x="60" y="60"/>
     </wire>
     <wire>
